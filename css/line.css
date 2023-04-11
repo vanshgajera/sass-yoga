@@ -1,0 +1,7 @@
+.line {
+  position: relative;
+}
+.line .container {
+  padding: 20px;
+  border-bottom: 1px solid rgba(88, 141, 121, 0.5882352941);
+}/*# sourceMappingURL=line.css.map */

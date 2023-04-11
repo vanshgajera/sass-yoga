@@ -1,0 +1,66 @@
+.shape-2 {
+  position: relative;
+  padding-bottom: 120px;
+}
+.shape-2 .w-7 span {
+  color: var(--bs-secondary-color);
+  font-size: 24px;
+  font-family: var(--bs-primary-font);
+  line-height: 1;
+  display: inline-block;
+}
+.shape-2 .w-7 h2 {
+  color: var(--bs-primary-500);
+  font-family: var(--bs-primary-font);
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 35px;
+  line-height: 54px;
+  letter-spacing: 1px;
+  margin: 0 0 20px 0;
+}
+.shape-2 .w-7 p {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: var(--bs-paragraph-font);
+  color: var(--bs-gray);
+  padding-bottom: 30px;
+}
+.shape-2 .w-7 .button .primary-btn {
+  padding: 10px 40px 12px 40px;
+  border: 2px solid var(--bs-secondary-color);
+  color: var(--bs-secondary-color);
+  font-family: var(--bs-secondary-font);
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 50px;
+  line-height: 1;
+}
+.shape-2 .w-7 .button .primary-btn:hover {
+  background-color: var(--bs-secondary-color);
+  color: var(--bs-white);
+  transition: all 0.3s ease-out;
+}
+.shape-2 .feautures-shape {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  transform: rotate(180deg);
+  bottom: -1px;
+  overflow: hidden;
+}
+.shape-2 .feautures-shape svg {
+  width: calc(198% + 1.3px);
+  height: 150px;
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.shape-2 .feautures-shape svg .elementor-shape-fill {
+  fill: var(--bs-primary);
+  transform: rotateY("0deg");
+}/*# sourceMappingURL=shape-2.css.map */

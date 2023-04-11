@@ -1,0 +1,52 @@
+:root {
+  --bs-primary: #d6ece1;
+  --bs-primary-200: #BDEAD9;
+  --bs-primary-300: #89ceb4;
+  --bs-primary-400: #5db5a0;
+  --bs-primary-500: #17543e;
+  --bs-primary-600:#16563f;
+  --bs-secondary-color:#CFA649;
+  --bs-btn-color:#9013FE;
+  --bs-primary-font:Playfair Display;
+  --bs-secondary-font:Quicksand;
+  --bs-nav-font:lato;
+  --bs-paragraph-font:Raleway;
+  --bs-gray:#525c58;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gutter-width:15px;
+}
+
+ol, ul {
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.align-item {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-align {
+  text-align: center;
+}/*# sourceMappingURL=base.css.map */

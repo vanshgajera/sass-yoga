@@ -1,0 +1,17 @@
+.Practice {
+  position: relative;
+}
+.Practice .shape-2 {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+  top: -1px;
+}
+.Practice .shape-2 svg {
+  width: 221.3%;
+  height: 100%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}/*# sourceMappingURL=pratice.css.map */

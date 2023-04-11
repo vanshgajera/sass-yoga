@@ -1,0 +1,58 @@
+.feautures {
+  padding-top: 60px;
+  padding-bottom: 120px;
+  background-color: var(--bs-primary);
+}
+.feautures .details span {
+  color: var(--bs-secondary-color);
+  font-size: 24px;
+  font-family: var(--bs-primary-font);
+  line-height: 1;
+}
+.feautures .details h2 {
+  color: var(--bs-primary-500);
+  font-family: var(--bs-primary-font);
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 35px;
+  line-height: 54px;
+  letter-spacing: 1px;
+  margin: 0 0 20px 0;
+}
+.feautures .details p {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: var(--bs-paragraph-font);
+  color: var(--bs-gray);
+}
+.feautures .row .w-4 {
+  padding: 30px;
+}
+.feautures .row .w-4 .icon-box img {
+  width: 75px;
+  display: inline-block;
+  height: 75px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.feautures .row .w-4 .icon-content h4 {
+  margin: 0 0 15px 0;
+}
+.feautures .row .w-4 .icon-content h4 span {
+  font-weight: 700;
+  font-family: var(--bs-primary-font);
+  color: var(--bs-primary-500);
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: none;
+  letter-spacing: 1px;
+}
+.feautures .row .w-4 .icon-content p {
+  font-family: var(--bs-paragraph-font);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  color: var(--bs-gray);
+  line-height: 34px;
+}/*# sourceMappingURL=feautures.css.map */

@@ -1,0 +1,63 @@
+$primary:#d6ece1;
+$primary-200:#BDEAD9;
+$primary-300:#89ceb4;
+$primary-400:#5db5a0;
+$primaery-500:#17543e;
+$primaery-600:#16563f;
+$secondary-color:#CFA649;
+$btn-color:#9013FE;
+$primary-font: "Playfair Display";
+$secondary-font:"Quicksand";
+$nav-font:"lato";
+$paragraph-font:"Raleway";
+$gray:#525c58;
+$black:#000;
+$white:#fff;
+$gutter-width:15px;
+
+
+:root{
+    --bs-primary: #{$primary};
+    --bs-primary-200: #{$primary-200};
+    --bs-primary-300: #{$primary-300};
+    --bs-primary-400: #{$primary-400};
+    --bs-primary-500: #{$primaery-500};
+    --bs-primary-600:#{$primaery-600};
+    --bs-secondary-color:#{$secondary-color};
+    --bs-btn-color:#{$btn-color};
+    --bs-primary-font:#{$primary-font};
+    --bs-secondary-font:#{$secondary-font};
+    --bs-nav-font:#{$nav-font};
+    --bs-paragraph-font:#{$paragraph-font};
+    --bs-gray:#{$gray};
+    --bs-black: #{$black};
+    --bs-white: #{$white};
+    --bs-gutter-width:#{$gutter-width};
+}
+ol,ul{
+    padding: 0;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.align-item{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.text-align{
+    text-align: center;
+}
+
